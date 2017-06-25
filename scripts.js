@@ -6,7 +6,7 @@ function Phone(brand, price, color, RAM) {
 }
 
 Phone.prototype.printInfo = function () {
-    console.log("The phone brand is " + this.brand + " and the price is " + this.price + ", color is " + this.color + ", weight is " + this.RAM + ".");
+    console.log("The phone brand is " + this.brand + " and the price is " + this.price + ", color is " + this.color + ", amount of RAM is " + this.RAM + ".");
 }
 
 var iPhone6S = new Phone('Apple', 2800, 'gold', 2 + 'GB');
